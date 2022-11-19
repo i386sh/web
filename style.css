@@ -67,10 +67,14 @@ hr {
 a {
 	color:#846fed;
 	text-decoration: none;
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
 }
 a:hover {
 	color:#111;
 	background-color:#846fed;
+	cursor:pointer;
 }
 .dropshadow {
 	filter:drop-shadow(2px 2px 5px black)
