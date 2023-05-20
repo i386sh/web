@@ -1,90 +1,21 @@
-<!DOCTYPE html>
-<!--
-hey. what're you doing back here ?
--->
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>notzer0</title>
+    <title>..</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="front">
-      <img style="margin-bottom:0px;display:inline !important;" class="logotype" src="otherlogotype.png" />
-      <br>
-      <a target="_blank" href="https://twitter.com/notzer0c" title="I'm on Mastodon more, because I don't trust Musk to actually competently run Twitter for much longer.">twitter</a> - <a rel="me" target="_blank" href="https://wetdry.world/@nz" title="I post things here.">mastodon</a> - <a target="_blank" href="https://soundcloud.com/notzer0" title="Because of course, you need to know the music I like or make.">soundcloud</a> - <a target="_blank" href="https://github.com/i386sh" title="This website is on my GitHub!">github</a> - <a target="_blank" href="https://vrchat.com/home/user/usr_9e9428fe-f206-4c1d-967b-a6a87e746154" title="I'm obviously a no-life.">vrchat</a> - <a title="I DO MAKE THINGS I SWEAR!" onclick="toggle(this,document.querySelector('#projects'),true);">projects</a>
-      <div>
-        <span>can be trusted with nuclear weaponry (probably).<br>often found playing vrchat, drinking copious amounts of energy drinks, or sleeping.</span>
-      </div>
-      <div id="projects" style="display:none;">
-        <h2 style="margin-bottom:0">projects</h2> this is the stuff i make/work on/contribute to. <br>
-        <a onclick="toggle(this,document.querySelector('#vrchat'));">vrchat content</a> - <a target="_blank" href="https://k2vr.tech">KinectToVR</a> (support, basically.) - <a target="_blank" href="https://github.com/i386sh/SayApple">SayApple</a> - <a target="_blank" href="https://github.com/i386sh/linktool">LinkTool</a> (deprecated, but still could have use.) - <a target="_blank" href="https://github.com/i386chat">i386chat</a>
-        <div class="collapsable" id="vrchat" style="display:none;">
-          <div>
-            <h2 style="margin-bottom:0">worlds</h2> most of my worlds remain unlisted because going through community labs is a pain in the ass <br> feel free to use any of these links to spin up an instance of any of them.<br><br>
-            <a onclick="toggle(this,document.querySelector('#ut'));">Until Tomorrow</a> (listed) <br>
-            <div style="margin-left:25px;display:none;" id="ut"> Until Tomorrow - released 02/05/2021 <br /> Created by both me & <a target="_blank" href="https://twitter.com/auroranemoia">AuroraNemoia</a>
-              <br>
-              <a href="https://vrchat.com/home/world/wrld_b3bca610-80e0-47b4-8579-9a4338569238" target="_blank">Link</a>
-            </div>
-            <a onclick="toggle(this,document.querySelector('#pstm'));">postmodern</a> (listed) <br>
-            <div style="margin-left:25px;display:none;" id="pstm"> postmodern - released 10/04/2022 <br /> Created by me. Inspired by #1 by Mogoon the Fish. <br />
-              <a href="https://vrchat.com/home/world/wrld_b4be327f-b468-4cdd-ad15-a825578d6f71" target="_blank">Link</a>
-            </div>
-            <a onclick="toggle(this,document.querySelector('#gecslime'));">100 gecs lime world</a> (listed) <br>
-            <div style="margin-left:25px;display:none;" id="gecslime"> you're stuck in a room with a picture of a lime and eurodance 100 gecs is playing in the background․․ - released 18/07/2021 <br /> Created by me. Song by Dylan Tallchief. <br />
-              <a href="https://vrchat.com/home/world/wrld_0579c88a-1bc7-40c4-8200-527c93472f88" target="_blank">Link</a>
-            </div>
-            <a onclick="toggle(this,document.querySelector('#ukn'));">unknown.</a> (listed) <br>
-            <div style="margin-left:25px;display:none;" id="ukn"> unknown. - released 24/05/2022 <br /> Created by me. <br />
-              <a href="https://vrchat.com/home/world/wrld_917aaf22-d0b4-4575-b9c8-5f2c4a26084f" target="_blank">Link</a>
-            </div>
-            <a onclick="toggle(this,document.querySelector('#afs'));">A Familiar Setup</a> (unlisted) <br>
-            <div style="margin-left:25px;display:none;" id="afs"> A Familiar Setup - released 20/03/2022 <br /> Created by me. <br />
-              <a href="https://vrchat.com/home/world/wrld_c33729b7-bd80-49ea-baf8-ec66cd758f69" target="_blank">Link</a>
-            </div>
-            <a onclick="toggle(this,document.querySelector('#cold'));">cold.</a> (unlisted) <br>
-            <div style="margin-left:25px;display:none;" id="cold"> cold. - released 01/04/2022 <br /> Created by me. <br />
-              <a href="https://vrchat.com/home/world/wrld_7242dc98-f8d7-48d6-8433-b702812bc7b0" target="_blank">Link</a>
-            </div>
-            <a onclick="toggle(this,document.querySelector('#opz'));">optimized purple zone</a> (unlisted) <br>
-            <div style="margin-left:25px;display:none;" id="opz"> optimized purple zone - released 21/04/2022 <br /> Created by me. <br />
-              <a href="https://vrchat.com/home/world/wrld_7e44515c-d384-473a-819d-5fd07a212848" target="_blank">Link</a>
-            </div>
-            <a onclick="toggle(this,document.querySelector('#bdr'));">bedroom.</a> (unlisted) <br>
-            <div style="margin-left:25px;display:none;" id="bdr"> bedroom. - released 04/08/2022 <br /> Created by me. Semi recreation of my bedroom. Minor differences. Credits in world. <br />
-              <a href="https://vrchat.com/home/world/wrld_144a78d9-31f9-4da3-bca1-a7bcff1f07f5" target="_blank">Link</a>
-            </div>
-          </div>
-          <div>
-            <h2 style="margin-bottom:0">avatars</h2>
-            i have some public avatars, but no world that they're in.<br>
-            here's the avatar IDs and a vague description of what they are, but <i>you will have to find a way to get them yourself.</i><br>i also work on a number of private avatars for myself, many of which you can see pictures of on my <a target="_blank" href="https://twitter.com/notzer0c">twitter</a>.<br><br>
-            <a onclick="toggle(this,document.querySelector('#av1'));">Rift Sensor</a><br>
-            <div style="margin-left:25px;display:none;" id="av1">
-            Floppy Rift Sensor. PC Only.<br>
-            avtr_e1986bc5-ae4e-4e3d-a2b0-8ee8a2c56e7c
-            </div>
-            <a onclick="toggle(this,document.querySelector('#av2'));">Quest 2 Controller</a><br>
-            <div style="margin-left:25px;display:none;" id="av2">
-            Floppy Quest 2 Controller. PC Only.<br>
-            avtr_932cfd6d-ef30-437a-a3c1-98e049faae6c
-            </div>
-            <a onclick="toggle(this,document.querySelector('#av3'));">NOPitchES</a><br>
-            <div style="margin-left:25px;display:none;" id="av3">
-            No bitches. PC Only.<br>
-            avtr_4f1d6913-6659-4a79-abbf-3fa4f8187248
-            </div>
-            <a onclick="toggle(this,document.querySelector('#av4'));">among us car</a><br>
-            <div style="margin-left:25px;display:none;" id="av4">
-            Froggy car by Ruuubick but with a crewmate in place of the frog. PC Only.<br>
-            avtr_26891ed5-b3f1-46dc-b3ac-37eaa21ec989
-            </div>
-          </div>
-        </div>
-      </div><br>
+    <div>
+
     </div>
-    <script src="jquery-3.6.1.min.js"></script>
-    <script src="common.js"></script>
+    <script>
+        function decode(_) {
+            return [..._.split("").splice(16).join("").replace(/[^a-z0']/g, '').toUpperCase()].filter((z, i) => i%2).join("").replace(/[A-Z]/g, (x)=>{ return String.fromCharCode(((x.charCodeAt() + (parseInt(atob(_.split("").splice(0,16).join(""))) / 5895656233)-3) <= 90) ? x.charCodeAt() + (parseInt(atob(_.split("").splice(0,16).join(""))) / 5895656233)-3 : (x.charCodeAt() + (parseInt(atob(_.split("").splice(0,16).join(""))) / 5895656233)-3) % 90 + 64);}).replace(/0/gi," ").toLowerCase();
+        }
+        document.querySelector("div").innerText = decode("OTQzMzA0OTk3Mjg=xlxbxhx0xfxuxbxhxyxqxax'xgx0xuxnxixrx0xqxbxaxrx0xgxuxnxgx")
+        document.querySelector("div").onclick = function() {
+            document.write(atob("PCFET0NUWVBFIGh0bWw+CjwhLS0KaGV5LiB3aGF0J3JlIHlvdSBkb2luZyBiYWNrIGhlcmUgPwotLT4KPGh0bWw+CiAgPGhlYWQ+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8dGl0bGU+bm90emVyMDwvdGl0bGU+CiAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9InN0eWxlLmNzcyI+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPGRpdiBjbGFzcz0iZnJvbnQiPgogICAgICA8aW1nIHN0eWxlPSJtYXJnaW4tYm90dG9tOjBweDtkaXNwbGF5OmlubGluZSAhaW1wb3J0YW50OyIgY2xhc3M9ImxvZ290eXBlIiBzcmM9Im90aGVybG9nb3R5cGUucG5nIiAvPgogICAgICA8YnI+CiAgICAgIDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwczovL3R3aXR0ZXIuY29tL25vdHplcjBjIiB0aXRsZT0iSSdtIG9uIE1hc3RvZG9uIG1vcmUsIGJlY2F1c2UgSSBkb24ndCB0cnVzdCBNdXNrIHRvIGFjdHVhbGx5IGNvbXBldGVudGx5IHJ1biBUd2l0dGVyIGZvciBtdWNoIGxvbmdlci4iPnR3aXR0ZXI8L2E+IC0gPGEgcmVsPSJtZSIgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHBzOi8vd2V0ZHJ5LndvcmxkL0BueiIgdGl0bGU9IkkgcG9zdCB0aGluZ3MgaGVyZS4iPm1hc3RvZG9uPC9hPiAtIDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwczovL3NvdW5kY2xvdWQuY29tL25vdHplcjAiIHRpdGxlPSJCZWNhdXNlIG9mIGNvdXJzZSwgeW91IG5lZWQgdG8ga25vdyB0aGUgbXVzaWMgSSBsaWtlIG9yIG1ha2UuIj5zb3VuZGNsb3VkPC9hPiAtIDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vaTM4NnNoIiB0aXRsZT0iVGhpcyB3ZWJzaXRlIGlzIG9uIG15IEdpdEh1YiEiPmdpdGh1YjwvYT4gLSA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cHM6Ly92cmNoYXQuY29tL2hvbWUvdXNlci91c3JfOWU5NDI4ZmUtZjIwNi00YzFkLTk2N2ItYTZhODdlNzQ2MTU0IiB0aXRsZT0iSSdtIG9idmlvdXNseSBhIG5vLWxpZmUuIj52cmNoYXQ8L2E+IC0gPGEgdGl0bGU9IkkgRE8gTUFLRSBUSElOR1MgSSBTV0VBUiEiIG9uY2xpY2s9InRvZ2dsZSh0aGlzLGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNwcm9qZWN0cycpLHRydWUpOyI+cHJvamVjdHM8L2E+CiAgICAgIDxkaXY+CiAgICAgICAgPHNwYW4+Y2FuIGJlIHRydXN0ZWQgd2l0aCBudWNsZWFyIHdlYXBvbnJ5IChwcm9iYWJseSkuPGJyPm9mdGVuIGZvdW5kIHBsYXlpbmcgdnJjaGF0LCBkcmlua2luZyBjb3Bpb3VzIGFtb3VudHMgb2YgZW5lcmd5IGRyaW5rcywgb3Igc2xlZXBpbmcuPC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBpZD0icHJvamVjdHMiIHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij4KICAgICAgICA8aDIgc3R5bGU9Im1hcmdpbi1ib3R0b206MCI+cHJvamVjdHM8L2gyPiB0aGlzIGlzIHRoZSBzdHVmZiBpIG1ha2Uvd29yayBvbi9jb250cmlidXRlIHRvLiA8YnI+CiAgICAgICAgPGEgb25jbGljaz0idG9nZ2xlKHRoaXMsZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI3ZyY2hhdCcpKTsiPnZyY2hhdCBjb250ZW50PC9hPiAtIDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwczovL2sydnIudGVjaCI+S2luZWN0VG9WUjwvYT4gKHN1cHBvcnQsIGJhc2ljYWxseS4pIC0gPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9pMzg2c2gvU2F5QXBwbGUiPlNheUFwcGxlPC9hPiAtIDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vaTM4NnNoL2xpbmt0b29sIj5MaW5rVG9vbDwvYT4gKGRlcHJlY2F0ZWQsIGJ1dCBzdGlsbCBjb3VsZCBoYXZlIHVzZS4pIC0gPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9pMzg2Y2hhdCI+aTM4NmNoYXQ8L2E+CiAgICAgICAgPGRpdiBjbGFzcz0iY29sbGFwc2FibGUiIGlkPSJ2cmNoYXQiIHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxoMiBzdHlsZT0ibWFyZ2luLWJvdHRvbTowIj53b3JsZHM8L2gyPiBtb3N0IG9mIG15IHdvcmxkcyByZW1haW4gdW5saXN0ZWQgYmVjYXVzZSBnb2luZyB0aHJvdWdoIGNvbW11bml0eSBsYWJzIGlzIGEgcGFpbiBpbiB0aGUgYXNzIDxicj4gZmVlbCBmcmVlIHRvIHVzZSBhbnkgb2YgdGhlc2UgbGlua3MgdG8gc3BpbiB1cCBhbiBpbnN0YW5jZSBvZiBhbnkgb2YgdGhlbS48YnI+PGJyPgogICAgICAgICAgICA8YSBvbmNsaWNrPSJ0b2dnbGUodGhpcyxkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjdXQnKSk7Ij5VbnRpbCBUb21vcnJvdzwvYT4gKGxpc3RlZCkgPGJyPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tbGVmdDoyNXB4O2Rpc3BsYXk6bm9uZTsiIGlkPSJ1dCI+IFVudGlsIFRvbW9ycm93IC0gcmVsZWFzZWQgMDIvMDUvMjAyMSA8YnIgLz4gQ3JlYXRlZCBieSBib3RoIG1lICYgPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vYXVyb3JhbmVtb2lhIj5BdXJvcmFOZW1vaWE8L2E+CiAgICAgICAgICAgICAgPGJyPgogICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vdnJjaGF0LmNvbS9ob21lL3dvcmxkL3dybGRfYjNiY2E2MTAtODBlMC00N2I0LTg1NzktOWE0MzM4NTY5MjM4IiB0YXJnZXQ9Il9ibGFuayI+TGluazwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxhIG9uY2xpY2s9InRvZ2dsZSh0aGlzLGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNwc3RtJykpOyI+cG9zdG1vZGVybjwvYT4gKGxpc3RlZCkgPGJyPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tbGVmdDoyNXB4O2Rpc3BsYXk6bm9uZTsiIGlkPSJwc3RtIj4gcG9zdG1vZGVybiAtIHJlbGVhc2VkIDEwLzA0LzIwMjIgPGJyIC8+IENyZWF0ZWQgYnkgbWUuIEluc3BpcmVkIGJ5ICMxIGJ5IE1vZ29vbiB0aGUgRmlzaC4gPGJyIC8+CiAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly92cmNoYXQuY29tL2hvbWUvd29ybGQvd3JsZF9iNGJlMzI3Zi1iNDY4LTRjZGQtYWQxNS1hODI1NTc4ZDZmNzEiIHRhcmdldD0iX2JsYW5rIj5MaW5rPC9hPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGEgb25jbGljaz0idG9nZ2xlKHRoaXMsZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2dlY3NsaW1lJykpOyI+MTAwIGdlY3MgbGltZSB3b3JsZDwvYT4gKGxpc3RlZCkgPGJyPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tbGVmdDoyNXB4O2Rpc3BsYXk6bm9uZTsiIGlkPSJnZWNzbGltZSI+IHlvdSdyZSBzdHVjayBpbiBhIHJvb20gd2l0aCBhIHBpY3R1cmUgb2YgYSBsaW1lIGFuZCBldXJvZGFuY2UgMTAwIGdlY3MgaXMgcGxheWluZyBpbiB0aGUgYmFja2dyb3VuZOKApOKApCAtIHJlbGVhc2VkIDE4LzA3LzIwMjEgPGJyIC8+IENyZWF0ZWQgYnkgbWUuIFNvbmcgYnkgRHlsYW4gVGFsbGNoaWVmLiA8YnIgLz4KICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL3ZyY2hhdC5jb20vaG9tZS93b3JsZC93cmxkXzA1NzljODhhLTFiYzctNDBjNC04MjAwLTUyN2M5MzQ3MmY4OCIgdGFyZ2V0PSJfYmxhbmsiPkxpbms8L2E+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8YSBvbmNsaWNrPSJ0b2dnbGUodGhpcyxkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjdWtuJykpOyI+dW5rbm93bi48L2E+IChsaXN0ZWQpIDxicj4KICAgICAgICAgICAgPGRpdiBzdHlsZT0ibWFyZ2luLWxlZnQ6MjVweDtkaXNwbGF5Om5vbmU7IiBpZD0idWtuIj4gdW5rbm93bi4gLSByZWxlYXNlZCAyNC8wNS8yMDIyIDxiciAvPiBDcmVhdGVkIGJ5IG1lLiA8YnIgLz4KICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL3ZyY2hhdC5jb20vaG9tZS93b3JsZC93cmxkXzkxN2FhZjIyLWQwYjQtNDU3NS1iOWM4LTVmMmM0YTI2MDg0ZiIgdGFyZ2V0PSJfYmxhbmsiPkxpbms8L2E+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8YSBvbmNsaWNrPSJ0b2dnbGUodGhpcyxkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjYWZzJykpOyI+QSBGYW1pbGlhciBTZXR1cDwvYT4gKHVubGlzdGVkKSA8YnI+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9Im1hcmdpbi1sZWZ0OjI1cHg7ZGlzcGxheTpub25lOyIgaWQ9ImFmcyI+IEEgRmFtaWxpYXIgU2V0dXAgLSByZWxlYXNlZCAyMC8wMy8yMDIyIDxiciAvPiBDcmVhdGVkIGJ5IG1lLiA8YnIgLz4KICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL3ZyY2hhdC5jb20vaG9tZS93b3JsZC93cmxkX2MzMzcyOWI3LWJkODAtNDllYS1iYWY4LWVjNjZjZDc1OGY2OSIgdGFyZ2V0PSJfYmxhbmsiPkxpbms8L2E+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8YSBvbmNsaWNrPSJ0b2dnbGUodGhpcyxkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjY29sZCcpKTsiPmNvbGQuPC9hPiAodW5saXN0ZWQpIDxicj4KICAgICAgICAgICAgPGRpdiBzdHlsZT0ibWFyZ2luLWxlZnQ6MjVweDtkaXNwbGF5Om5vbmU7IiBpZD0iY29sZCI+IGNvbGQuIC0gcmVsZWFzZWQgMDEvMDQvMjAyMiA8YnIgLz4gQ3JlYXRlZCBieSBtZS4gPGJyIC8+CiAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly92cmNoYXQuY29tL2hvbWUvd29ybGQvd3JsZF83MjQyZGM5OC1mOGQ3LTQ4ZDYtODQzMy1iNzAyODEyYmM3YjAiIHRhcmdldD0iX2JsYW5rIj5MaW5rPC9hPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGEgb25jbGljaz0idG9nZ2xlKHRoaXMsZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI29weicpKTsiPm9wdGltaXplZCBwdXJwbGUgem9uZTwvYT4gKHVubGlzdGVkKSA8YnI+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9Im1hcmdpbi1sZWZ0OjI1cHg7ZGlzcGxheTpub25lOyIgaWQ9Im9weiI+IG9wdGltaXplZCBwdXJwbGUgem9uZSAtIHJlbGVhc2VkIDIxLzA0LzIwMjIgPGJyIC8+IENyZWF0ZWQgYnkgbWUuIDxiciAvPgogICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vdnJjaGF0LmNvbS9ob21lL3dvcmxkL3dybGRfN2U0NDUxNWMtZDM4NC00NzNhLTgxOWQtNWZkMDdhMjEyODQ4IiB0YXJnZXQ9Il9ibGFuayI+TGluazwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxhIG9uY2xpY2s9InRvZ2dsZSh0aGlzLGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNiZHInKSk7Ij5iZWRyb29tLjwvYT4gKHVubGlzdGVkKSA8YnI+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9Im1hcmdpbi1sZWZ0OjI1cHg7ZGlzcGxheTpub25lOyIgaWQ9ImJkciI+IGJlZHJvb20uIC0gcmVsZWFzZWQgMDQvMDgvMjAyMiA8YnIgLz4gQ3JlYXRlZCBieSBtZS4gU2VtaSByZWNyZWF0aW9uIG9mIG15IGJlZHJvb20uIE1pbm9yIGRpZmZlcmVuY2VzLiBDcmVkaXRzIGluIHdvcmxkLiA8YnIgLz4KICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL3ZyY2hhdC5jb20vaG9tZS93b3JsZC93cmxkXzE0NGE3OGQ5LTMxZjktNGRhMy1iY2ExLWE3YmNmZjFmMDdmNSIgdGFyZ2V0PSJfYmxhbmsiPkxpbms8L2E+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDIgc3R5bGU9Im1hcmdpbi1ib3R0b206MCI+YXZhdGFyczwvaDI+CiAgICAgICAgICAgIGkgaGF2ZSBzb21lIHB1YmxpYyBhdmF0YXJzLCBidXQgbm8gd29ybGQgdGhhdCB0aGV5J3JlIGluLjxicj4KICAgICAgICAgICAgaGVyZSdzIHRoZSBhdmF0YXIgSURzIGFuZCBhIHZhZ3VlIGRlc2NyaXB0aW9uIG9mIHdoYXQgdGhleSBhcmUsIGJ1dCA8aT55b3Ugd2lsbCBoYXZlIHRvIGZpbmQgYSB3YXkgdG8gZ2V0IHRoZW0geW91cnNlbGYuPC9pPjxicj5pIGFsc28gd29yayBvbiBhIG51bWJlciBvZiBwcml2YXRlIGF2YXRhcnMgZm9yIG15c2VsZiwgbWFueSBvZiB3aGljaCB5b3UgY2FuIHNlZSBwaWN0dXJlcyBvZiBvbiBteSA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9ub3R6ZXIwYyI+dHdpdHRlcjwvYT4uPGJyPjxicj4KICAgICAgICAgICAgPGEgb25jbGljaz0idG9nZ2xlKHRoaXMsZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2F2MScpKTsiPlJpZnQgU2Vuc29yPC9hPjxicj4KICAgICAgICAgICAgPGRpdiBzdHlsZT0ibWFyZ2luLWxlZnQ6MjVweDtkaXNwbGF5Om5vbmU7IiBpZD0iYXYxIj4KICAgICAgICAgICAgRmxvcHB5IFJpZnQgU2Vuc29yLiBQQyBPbmx5Ljxicj4KICAgICAgICAgICAgYXZ0cl9lMTk4NmJjNS1hZTRlLTRlM2QtYTJiMC04ZWU4YTJjNTZlN2MKICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxhIG9uY2xpY2s9InRvZ2dsZSh0aGlzLGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNhdjInKSk7Ij5RdWVzdCAyIENvbnRyb2xsZXI8L2E+PGJyPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tbGVmdDoyNXB4O2Rpc3BsYXk6bm9uZTsiIGlkPSJhdjIiPgogICAgICAgICAgICBGbG9wcHkgUXVlc3QgMiBDb250cm9sbGVyLiBQQyBPbmx5Ljxicj4KICAgICAgICAgICAgYXZ0cl85MzJjZmQ2ZC1lZjMwLTQzN2EtYTNjMS05OGUwNDlmYWFlNmMKICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxhIG9uY2xpY2s9InRvZ2dsZSh0aGlzLGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNhdjMnKSk7Ij5OT1BpdGNoRVM8L2E+PGJyPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tbGVmdDoyNXB4O2Rpc3BsYXk6bm9uZTsiIGlkPSJhdjMiPgogICAgICAgICAgICBObyBiaXRjaGVzLiBQQyBPbmx5Ljxicj4KICAgICAgICAgICAgYXZ0cl80ZjFkNjkxMy02NjU5LTRhNzktYWJiZi0zZmE0ZjgxODcyNDgKICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxhIG9uY2xpY2s9InRvZ2dsZSh0aGlzLGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNhdjQnKSk7Ij5hbW9uZyB1cyBjYXI8L2E+PGJyPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJtYXJnaW4tbGVmdDoyNXB4O2Rpc3BsYXk6bm9uZTsiIGlkPSJhdjQiPgogICAgICAgICAgICBGcm9nZ3kgY2FyIGJ5IFJ1dXViaWNrIGJ1dCB3aXRoIGEgY3Jld21hdGUgaW4gcGxhY2Ugb2YgdGhlIGZyb2cuIFBDIE9ubHkuPGJyPgogICAgICAgICAgICBhdnRyXzI2ODkxZWQ1LWIzZjEtNDZkYy1iM2FjLTM3ZWFhMjFlYzk4OQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj48YnI+CiAgICA8L2Rpdj4KICAgIDxzY3JpcHQgc3JjPSJqcXVlcnktMy42LjEubWluLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSJjb21tb24uanMiPjwvc2NyaXB0PgogIDwvYm9keT4KPC9odG1sPg=="))
+        }
+    </script>
   </body>
 </html>
