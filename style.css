@@ -62,8 +62,14 @@ h1 {
     display:flex;
     flex-wrap:wrap;
 }
+
 .flatList-content {
+    transition: transform .3s ease-in-out;
     margin:15px;
+}
+.flatList-content:hover {
+    transform: rotate(360deg);
+    transform: scale(1.2);
 }
 .flatList-enContent {
     margin:15px;
