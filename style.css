@@ -66,6 +66,7 @@ h1 {
 .flatList-content {
     transition: transform .3s ease-in-out;
     margin:15px;
+    font-size:16px;
 }
 .flatList-content:hover {
     transform: rotate(360deg);
