@@ -71,3 +71,23 @@ h1 {
     margin:15px;
     width:250px;
 }
+/* stolen from https://codepen.io/queenadreena/pen/oKGyYq */
+  
+@keyframes wobb {
+    0%, 100%   {transform: translateY(0px)}
+    25%  {transform: translateY(-3px)}
+    75%  {transform: translateY(3px)}
+}
+  
+.wobble span {
+    animation-name: wobb;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 950ms;
+    display: inline-block;
+    transform: translateY(0px);
+}
+  
+.spacer {
+    height: 100px;
+}
