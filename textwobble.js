@@ -10,7 +10,7 @@ all.forEach(el => {
   text = text.split("");
   // Iterate through each letter and give it its own span element and individual animation delay offset
   const textCode = text.map((x, idx) => {
-    let delay = (idx + (Math.floor(Math.random() * (10 - 1 + 1) + 10))) * (Math.floor(Math.random() * (50 - 35 + 1) + 35));
+    let delay = (idx + 1) * 42;
     return `<span style="animation-delay: ${delay}ms">${x}</span>`;
   })
   // replace the element's html with our dynamically created html
