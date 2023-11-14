@@ -11,6 +11,7 @@ html, body {
 }
 a {
     color: #ab97c2;
+    font-size:16px;
     background-color:#000;
 }
 a:hover {
@@ -57,23 +58,7 @@ ul {
 h1 {
     margin:0;
 }
-.flatList-cont {
-    /* I liked using flexbox but it's also so fucking bad man. Inconsistency with mobile scaling makes me want to die */
-    font-size:16px;
-}
 
-.flatList-content {
-    display:inline-block;
-    margin:15px;
-    font-size:16px;
-}
-
-.flatList-enContent {
-    margin:15px;
-    width:250px;
-    display:inline-block;
-    font-size:16px;
-}
 
 /* stolen from https://codepen.io/queenadreena/pen/oKGyYq */
   
